@@ -1,0 +1,668 @@
+
+  
+/*INDEX*/
+
+ /* Barra de navegación */
+
+ header {
+     margin: 0px 5px;
+     padding: 10px;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: normal;
+
+     background-color: #f8f4f4;
+     /* Cambia este valor por el color que desees */
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+     /* Establece el sombreado */
+
+
+ }
+
+ .nav_prin {
+     display: flex;
+     justify-content: space-between;
+     align-items: stretch;
+
+ }
+
+
+ .img_log {
+     width: 100px;
+     margin: 10px 0px 10px 0px;
+
+ }
+
+ .input_search {
+     /*Buscar*/
+     width: 150px;
+     margin: 17px;
+     border-radius: 5px;
+     border: 2px solid #083d10;
+
+
+ }
+
+ .button_search {
+     border: none;
+
+
+ }
+
+ .ul_nav {
+     margin: 20px 0px 0px 10px;
+
+ }
+
+ .link_nav {
+     margin: 5px 0px 0px 0px;
+     display: inline;
+     list-style-type: none;
+     padding: 10px;
+     color: black;
+
+
+ }
+
+ nav a {
+     font-size: 0.8rem;
+     list-style-type: none;
+     text-decoration: none;
+     color: #083d10;
+ }
+
+ nav a:hover {
+     color: #c78c19;
+ }
+
+ .boxiconsFcIg {
+
+     text-align: left;
+ }
+
+ /*Menu hamburguesa*/
+ .hamburger {
+     display: none;
+     flex-direction: column;
+     cursor: pointer;
+ }
+
+ .line {
+     width: 25px;
+     height: 3px;
+     margin: 5px;
+     background-color: #333;
+ }
+
+ /* 
+
+
+ div a {
+     /*Esto esta siendo aplicado a los iconos de facebook e instagram de la barra de navegacion osea a la etiqueta <div> en donde se encuentra la etiqueta <a>*/
+ /* text-decoration: none;
+     color: #083d10;
+ } 
+ */
+
+ div a:hover {
+     /*Esta siendo aplicada en la etiqueta <a> que esta dentro del contendor <div> donde estan los iconos de la barra de navegación Fc e Ig*/
+     color: #c78c19;
+ }
+
+ .boxiconsFcIg {
+     /*lo esta aplicando a los iconos de la barra de navegación esta es la caja de los iconos*/
+     width: 100px;
+     margin: 20px 0px 0px 0px;
+
+ }
+
+
+
+
+ /*Main-index*/
+
+ /*Productos destacados*/
+
+ .section-salient {
+     background-color: #369344;
+     margin: 0px;
+     width: 100%;
+     height: 100%;
+
+ }
+
+ .title-salient {
+     text-align: center;
+     margin-top: 40px;
+     margin-bottom: 20px;
+     font-size: 1.5rem;
+     color: #f5efef;
+ }
+
+ .div-product {
+     display: flex;
+     justify-content: center;
+
+     text-align: justify;
+
+
+ }
+
+
+
+ .div-image {
+
+     background-color: white;
+
+     margin: 0px 0px 20px 5px;
+     margin-bottom: 20px;
+
+     padding-left: 1px;
+     border-radius: 10px;
+ }
+
+ .image-produc {
+     width: 150px;
+     margin: 10px;
+     padding: 10px;
+     height: 150px;
+     border-radius: 20px;
+ }
+
+
+ .name-plant {
+     margin: 10px;
+ }
+
+ .characteristics {
+     font-size: 0.7rem;
+     width: 150px;
+ }
+
+ .read {
+     /*Leer más*/
+     border: none;
+     color: blue;
+     text-decoration: underline;
+ }
+
+ .cost {
+     margin: 20px 0px 5px 10px;
+ }
+
+ .button-buy {
+     width: 70px;
+     margin: 7px;
+     font-size: 0.7rem;
+     border-radius: 5px;
+     border: none;
+     background-color: #369344;
+     color: #f1f1f1;
+     text-align: center;
+ }
+
+ .product-h2 {
+     padding: 20px;
+     color: white;
+     text-align: center;
+     font-size: 1rem;
+     margin-bottom: 20px;
+ }
+
+ section a {
+     /*Esto aplica a el boton ver mas productos*/
+     width: 100%;
+     text-align: center;
+     margin: 0px 300px 50px 400px;
+ }
+
+ section a button {
+     border-radius: 20px;
+     border: #083d10 solid 1px;
+     color: #083d10;
+     font-size: 0.9rem;
+     padding: 5px;
+     margin-bottom: 20px;
+     text-align: center;
+ }
+
+ /*Control de plagas urbanas y rurales*/
+
+ .section-pests {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: 1fr 0.1fr;
+ }
+
+ .image-pests {
+     width: 400px;
+     margin: 20px;
+     border-radius: 2px;
+     grid-column: 1;
+     grid-row: 1/2;
+ }
+
+ .title-pests {
+     grid-column: 2;
+     grid-row: 1;
+     margin: 10px 0px 10px 2px;
+     font-size: 2.6rem;
+     text-align: center;
+     color: #369344;
+
+ }
+
+ .paragraph-pests {
+     grid-column: 2;
+     grid-row: 2;
+     font-size: 0.7rem;
+     text-align: justify;
+     margin: 10px 15px 0px 5px
+ }
+
+ .button-cost {
+     /*Boton de ver contizacion*/
+     grid-column: 1/2;
+     grid-row: 2;
+     width: 100px;
+     border-radius: 20px;
+     border: #083d10 solid 1px;
+     color: #083d10;
+     font-size: 0.9rem;
+     padding: 5px;
+     margin: 0px 300px 20px 400px;
+     text-align: center;
+ }
+
+ /*Seccion novedades*/
+
+ .secction-new {
+     background-color: #908f8f;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: 1fr;
+ }
+
+ .title-new {
+     font-size: 1.5rem;
+     color: white;
+     text-align: center;
+     margin-top: 20px;
+
+ }
+
+ .subtitle-new {
+     font-size: 1rem;
+     margin: 20px 0px 10px 10px;
+     text-align: center;
+     color: white;
+ }
+
+ .paragraph-new {
+     font-size: 0.85rem;
+     margin: 25px 5px 0px 20px;
+     text-align: justify;
+     color: white;
+ }
+
+ .image-new {
+     width: 400px;
+     margin: 20px 0px 0px 10px;
+     padding: 10px;
+     grid-template-columns: 2;
+     border-radius: 20px;
+
+ }
+
+
+
+
+ /* quienes somos */
+ /* Main */
+
+ .banner {
+     /*caracteristicas para hacer un banner */
+     height: 200px;
+     /* ajusta la altura a tu gusto */
+     background-color: #f1f1f1;
+     /* color de fondo por defecto */
+     background-image: url('../Imagenes/banner2.jpg');
+     background-size: cover;
+     /*hace que la imagen de fondo se ajuste de manera proporcional al tamaño del contenedor y cubra todo el área del mismo sin deformar la imagen. */
+     background-position: center;
+     position: relative;
+ }
+
+ .banner img {
+     display: none;
+     /* oculta la imagen para que solo se muestre el fondo */
+ }
+
+ .section-mainqs {
+
+
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: auto auto auto;
+     grid-gap: 10px;
+     grid-column-gap: 130px;
+ }
+
+
+
+ .main-h2 {
+     font-weight: bolder;
+     padding: 10px;
+ }
+
+ .div1 {
+     grid-column: 1 / span 2;
+     text-align: center;
+     margin-top: 40px;
+     margin-bottom: 20px;
+     font-weight: 700;
+     font-size: 1.5rem;
+     text-decoration-line: underline;
+ }
+
+ .div2 {
+     grid-row: 2;
+     grid-column: 2;
+     padding: 20px;
+     margin-left: 20px;
+ }
+
+ .div3 {
+     grid-row: 2;
+     grid-column: 1;
+     width: 200px;
+     margin-left: 40px;
+     padding: 10px;
+ }
+
+ .div4 {
+     grid-row: 4;
+     grid-column: 1;
+     margin-left: 40px;
+     padding: 10px;
+ }
+
+ .div5 {
+     grid-row: 5;
+     grid-column: 1;
+     margin-left: 40px;
+     padding: 10px;
+ }
+
+ .img_log-qs {
+     width: 200px;
+
+ }
+
+ .image-nursery {
+     width: 300px;
+     border-radius: 5px;
+     background-color: #f5efef;
+     /* Cambia este valor por el color que desees */
+     box-shadow: 3px 3px 7px#040404;
+     /* Establece el sombreado */
+ }
+
+ .paragraph {
+     width: 500px;
+ }
+
+
+
+
+ /*Productos*/
+
+ .main-product {}
+
+ .title-product {
+     text-align: center;
+     margin-top: 40px;
+     margin-bottom: 20px;
+     font-size: 1.5rem;
+ }
+
+ .subtitle-plants {
+     margin: 0px 100px 20px 50px;
+ }
+
+ .h3-product {
+     font-size: 0.9rem;
+     font-weight: 0px;
+     text-align: center;
+
+ }
+
+ .section-product {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+
+ /*servicios*/
+
+ /*Banner*/
+
+ .banner-service {
+
+     /*caracteristicas para hacer un banner */
+     height: 250px;
+     /* ajusta la altura a tu gusto */
+     background-color: #f1f1f1;
+     /* color de fondo por defecto */
+     background-image: url('../Imagenes/tecnico-control-de-plagas-2.jpg');
+     background-size: cover;
+     /*hace que la imagen de fondo se ajuste de manera proporcional al tamaño del contenedor y cubra todo el área del mismo sin deformar la imagen. */
+     background-position: inherit;
+     position: relative;
+ }
+
+ .banner-service .img-banner-s {
+     display: none;
+     /* oculta la imagen para que solo se muestre el fondo */
+ }
+
+ /*Plagas rurales*/
+
+ .section-urbanas {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: 2fr;
+     background-color: #369344
+ }
+
+ .title-urbanas {
+     color: white;
+ }
+
+ .paragraph-urbanas {
+     color: white;
+     font-size: 0.7rem;
+ }
+
+ .button-cost-urbanas {
+     border-radius: 20px;
+     border: #083d10 solid 1px;
+     color: #083d10;
+     font-size: 0.9rem;
+     width: 100px;
+     padding: 5px;
+    margin-left: 85%;
+    margin-right: 85%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+     grid-column: 1 span/ 2;
+     grid-row: 2;
+    
+     
+ }
+/*contacto*/
+
+.main-contact{
+    background: linear-gradient(to bottom,rgb(144,143,143), #fff);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.form{
+    display:flex;
+    
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-form{
+    width: 170px;
+    margin: 10px 0px 10px 30px;
+}
+
+.div-form{
+    margin: 30px 0px 15px 20px;
+}
+
+.submit{
+    margin: 15px 0px 15px 20px;
+    width: 200px;
+    
+}
+
+
+
+ /*Footer*/
+
+ .footer {
+     display: grid;
+     grid-template-columns: repeat(2, 0.5fr);
+     grid-template-rows: 1fr;
+     background: linear-gradient(to bottom,#fff,rgb(144,143,143));
+
+ }
+
+ .copiright {
+     grid-template-columns: 1;
+
+ }
+
+ .redes-sociales {
+     margin: 20px 0px 0px 20px;
+     color: white;
+ }
+
+ .tel {
+     margin: 20px 0px 0px 20px;
+     color: white;
+ }
+
+ .direcction {
+     margin: 20px 0px 0px 20px;
+     color: white;
+ }
+
+ .mediosdepago {
+     margin: 20px 0px 0px 20px;
+     color: white;
+ }
+
+ .nav-footer {}
+
+ .ul-footer {
+
+
+     margin: 0px 0px 10px 20px;
+ }
+
+ .a-footer {
+     margin: 5px 15px 5px 15px;
+
+     color: white;
+ }
+
+
+ /* Medidas responsivas */
+
+
+ @media only screen and (max-width:850px) {
+
+     /* Index/Nav */
+     /*Menu Hambugesa*/
+
+
+
+
+
+     header {
+         display: flex;
+         justify-content: space-around;
+         align-items: normal;
+         width: 100%;
+     }
+
+     .nav_prin {
+
+         flex-direction: column;
+
+
+
+     }
+
+
+     .search {
+         float: right;
+         text-align: right;
+
+     }
+
+     .input_search {
+         width: 100px;
+     }
+
+     .boxiconsFcIg {
+         display: none;
+     } 
+
+
+
+
+     /* Index/Main */
+
+     .carousel {
+         display: none;
+     }
+
+     /* section/main/index */
+
+
+
+     .div1 {
+         text-align: start;
+         padding: 20px;
+
+     }
+
+     .div2 {
+         display: none;
+     }
+ }
+
+
+
+
+ @media (min-width: 300px) and (max-width: 576px) {
+
+     /* Estilos a aplicar cuando la pantalla tiene un ancho entre 300px y 570px */
+
+     header {
+         width: 100%;
+         flex-wrap: wrap;
+     }
+
+
+ }
